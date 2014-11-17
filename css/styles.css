@@ -4,7 +4,7 @@ body,p,input {font-family:verdana,helvetica,arial,sans-serif;}
 
 img {border:0;}
 
-body {font-size:14px;color:#555555;background-color:#f1f1f1;margin:0px;}
+body {font-size:14px;color:#07485B;background-color:#f1f1f1;margin:0px;}
 
 div {width:100%;margin:0;padding:0;}
 
@@ -12,7 +12,11 @@ h1, h2, h3 {
 	font-weight:normal;font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-#top {width:1200px;height:70px;margin:auto;background-image:url('../img/tw.png');background-repeat:no-repeat;margin-top: 10px;}
+#top {width:1200px;height:50px;margin:auto;margin-top: 10px;background-color: #0D6986;box-shadow: 0px 0px 20px 3px #d3d3d3;border-top-left-radius: 4px;border-top-right-radius: 4px;}
+#top div {display: inline-block;margin: auto;}
+#topLogo {width: 80%;}
+#topLogo a {text-decoration: none;}
+#topLogo h2 {font-size: 40px;color: #07485B;margin: auto;color: #ffffff;margin-left: 40px;}
 
 div.box1 {float:left;width:310px;margin-top:40px;}
 div.box3 {float:left;width:310px;margin-top:30px;}
@@ -22,9 +26,9 @@ div.image {margin-left:15px;box-shadow: 0px 10px 20px 3px #d3d3d3;width:100px;he
 div.box1 h1 {font-size:32px;margin:0px;float:left;padding-left:10px;padding-top:18px;height:80px;}
 div.box1 h2 {margin:0px;float:left;padding-left:10px;padding-top:18px;}
 
-a.box {color:#555555;}
-a.btn {display:block;width:170px;margin-bottom:10px;margin-left:15px;background-color:#f1f1f1;border:1px solid #e3e3e3;padding:8px;border-radius:4px;font-size:16px;color:#555555;text-decoration:none;}
-a.btn:hover {background-color:#555555;color:#ffffff;border:1px solid #555555;}
+a.box {color:#07485B;}
+a.btn {display:block;width:170px;margin-bottom:10px;margin-left:15px;background-color:#f1f1f1;border:1px solid #e3e3e3;padding:8px;border-radius:4px;font-size:16px;color:#07485B;text-decoration:none;}
+a.btn:hover {background-color:#07485B;color:#ffffff;border:1px solid #07485B;}
 
 .box3 a {margin-top:14px;margin-bottom:30px;}
 
@@ -32,20 +36,21 @@ h1.js {display:none;}
 
 #bottomContainer {margin-top:15px;}
 .bottom {width:1200px;margin:auto;margin-top:0px;}
-.bottom a {color:#555555;text-decoration:none;}
+.bottom a {color:#07485B;text-decoration:none;}
 .bottom a:hover {text-decoration:underline;}
 .bottom div {text-align:center;font-size:11px;}
 
 
 
-#searchSection {width:320px;margin-top:24px;float:right;}
+#searchSection {width:20%;margin-top:24px;float:right;color: #ffffff;}
+.gcse-search input{width: 90%;}
 
 #page {width:1160px;margin:auto;background-color:#ffffff;padding-left:40px;padding-bottom:40px;box-shadow: 0px 10px 20px 3px #d3d3d3;}
 
 #leftcol {width:200px;float:left;margin-top:30px;margin-right:5px;}
 #leftcol h3 {font-size:17px;margin-bottom:8px;}
-#leftcol a:before {content:"\00BB  ";font-weight:bold;color:#ff4800;}
-#leftcol a {text-decoration:none;line-height:20px;font-size:14px;color:#555555;}
+#leftcol a:before {content:"\00BB  ";font-weight:bold;color:#DB073D;}
+#leftcol a {text-decoration:none;line-height:20px;font-size:14px;color:#07485B;}
 #leftcol a:hover {text-decoration:underline;}
 
 #maincol {width:934px;float:left;}
